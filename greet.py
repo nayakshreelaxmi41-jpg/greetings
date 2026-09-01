@@ -1,4 +1,6 @@
-greet = input("Enter your name im greet")
-print("good morning")
+greet = input("Enter your name: ")
 
-print("second line with modidied line")
+fname = input("Enter your first name: ")
+lname = input("Enter your last name: ")
+
+print("Good morning", fname, lname)
